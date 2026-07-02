@@ -1,0 +1,105 @@
+body{
+    background-image:url(a\ \(2\).jpg) ;
+}
+.menu-bar{
+    text-align: center;
+    
+    
+}
+.menu-bar ul{
+    list-style-type: none;
+    margin: 0;
+}
+.menu-bar ul li{
+    display: inline-block;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    padding: 10px 40px;
+    display: inline-block;
+    
+    border-right: 1px solid rgb(0, 0, 0);
+    color: #ffffff;
+    
+    border-radius: 20px  ;
+    background-color: rgb(10, 18, 126);
+    
+}
+.menu-bar ul li a:hover{
+    background-color: black;
+
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 80px;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+p{
+    color: #ffffff;
+    width: px;
+    text-align: center;
+}
+ol li{
+    color: #ffffff;
+    text-align: center;
+    list-style-type: none;
+}
+ img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+.contact{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-form{
+    width: 320px;
+    margin: auto;          /* Center */
+    padding: 30px;         /* Inside space */
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+.contact-form label{
+    display: block;        /* Label উপরে থাকবে */
+    text-align: left;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.contact-form button{
+    width: 100%;
+    padding: 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background: darkblue;
+}
